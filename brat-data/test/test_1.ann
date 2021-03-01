@@ -1,0 +1,17 @@
+T1	Person 23 25	開心
+T2	Animal 39 41	歌來
+T3	Plant 43 45	開心
+T4	Marriage 59 61	覺得
+E1	Marriage:T4 
+T5	Marriage 81 82	的
+E2	Marriage:T5 
+T6	Marriage 97 101	瞭哄女兒
+E3	Marriage:T6 
+A1	Confidence E3 Certain
+T7	Animal 23 25	開心
+T8	Marriage 23 25	開心
+E4	Marriage:T8 
+T9	Plant 23 25	開心
+T10	Bankruptcy 23 25	開心
+E5	Bankruptcy:T10 
+E6	Marriage:T8 

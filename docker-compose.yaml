@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+    brat:
+        build:
+            context: ./brat-docker/
+            dockerfile: Dockerfile
+        image: brat_image
+        container_name: brat_container
+        restart: always
+        volumes:
+          - "./brat-data:/bratdata"
+          - "./brat-cfg:/bratcfg"
+        expose:
+            - 80
+        ports:
+          - "8080:80"
+        environment:
+          BRAT_USERNAME: "brat"
+          BRAT_PASSWORD: "brat"
+          BRAT_EMAIL: "brat@example.com"
+networks:
+  main:
+    driver: bridge6. Asia
