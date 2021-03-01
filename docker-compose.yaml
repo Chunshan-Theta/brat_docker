@@ -1,4 +1,4 @@
-version: "3.7"
+version: "2"
 services:
     brat:
         build:
@@ -20,4 +20,4 @@ services:
           BRAT_EMAIL: "brat@example.com"
 networks:
   main:
-    driver: bridge6. Asia
+    driver: bridge
